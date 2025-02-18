@@ -1,0 +1,111 @@
+/*
+  Custom Hydra Launcher Theme by mr_pusox
+  Dark theme with neon accents
+*/
+
+/* General */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+body::after {
+  content: "BY mr_pusox";
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #ff4500;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 0 0 8px #ff4500;
+}
+
+/* Header */
+.header {
+  background: #1e1e1e;
+  border-bottom: 2px solid #ff4500;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4500;
+  text-shadow: 0 0 12px #ff4500;
+}
+
+.header::before {
+  content: "Hydra - Neon Orange Theme";
+}
+
+.header::after,
+.header svg {
+  display: none !important;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #1a1a1a;
+  width: 250px;
+  padding: 15px;
+  border-right: 2px solid #ff4500;
+}
+
+.sidebar a {
+  color: #ff4500;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  transition: 0.3s;
+  font-weight: bold;
+  text-shadow: 0 0 8px #ff4500;
+}
+
+.sidebar a:hover {
+  background: #ff4500;
+  color: #121212;
+}
+
+/* Main content */
+.container__content {
+  background: #181818;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ff4500;
+}
+
+/* Bottom panel */
+.bottom-panel {
+  background: #1e1e1e;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #ff4500;
+}
+
+/* Toast Notifications */
+.toast {
+  background: #ff4500;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #ff4500;
+}
+
+/* Buttons */
+.button {
+  background: #ff4500;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-shadow: 0 0 10px #ff4500;
+  box-shadow: 0 0 15px #ff4500;
+}
+
+.button:hover {
+  background: #cc3700;
+}
